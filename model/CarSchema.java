@@ -1,3 +1,5 @@
+//Code based from: https://github.com/geekific-official
+
 package Builder;
 
 public class CarSchema
@@ -10,7 +12,7 @@ public class CarSchema
     private final String engine;
     private final int numberOfDoors;
 
-    CarSchema(int id, String brand, String model, String color, int height, String engine int numberOfDoors)
+    CarSchema(int id, String brand, String model, String color, int height, String engine, int numberOfDoors)
     {
         this.id = id;
         this.brand = brand;

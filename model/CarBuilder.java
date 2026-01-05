@@ -1,3 +1,5 @@
+//Code based from: https://github.com/geekific-official
+
 package Builder;
 
 public class CarBuilder implements Builder
@@ -8,7 +10,7 @@ public class CarBuilder implements Builder
     private String model;
     private String color;
     private String engine;
-    private String numberOfDoors;
+    private int numberOfDoors;
 
     @Override
     public CarBuilder id(int id)
